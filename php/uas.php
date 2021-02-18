@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect("172.12.0.2","root","toor","Trucorp");
+$link = mysqli_connect("172.12.0.3","root","toor","Trucorp");
 if(!$link){
 echo "Failed to Connect" . PHP_EOL;
 echo "<br>";
